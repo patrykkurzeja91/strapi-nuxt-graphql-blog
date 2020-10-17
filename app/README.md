@@ -6,7 +6,6 @@ This starter allows you to try Strapi with Nuxt with the example of a simple blo
 
 You may want to know how to develop such a starter by your own! This starter is actually the result of this [tutorial](https://strapi.io/blog/build-a-blog-using-nuxt-strapi-and-apollo)
 
-![screenshot image](/screenshot.png)
 
 ### Deploy the backend
 
@@ -21,16 +20,6 @@ Once you have created these accounts you can deploy your instance by clicking on
 
 [Here](https://github.com/strapi/strapi-starter-blog) is the repository of the backend of this starter
 
-### Deploy the frontend
-
-**On Netflify**
-
-Coming soon...
-
-**On Vercel**
-
-Coming soon...
-
 ### Features
 
 - 2 Content types: Article, Category
@@ -41,9 +30,9 @@ Coming soon...
 
 ### Pages
 
-- "/" display every articles
-- "/article/:id" display one article
-- "/category/:id" display articles depending on the category
+- "/blog" display every articles
+- "/blog/article/:slug" display one article
+- "/blog/category/:slug" display articles depending on the category
 
 ### Getting started
 
@@ -54,8 +43,8 @@ See full instructions [here](https://github.com/strapi/strapi-starter-blog)
 **Frontend**
 
 ```bash
-git clone https://github.com/strapi/strapi-starter-nuxt-blog.git
-cd strapi-starter-nuxt-blog
+git clone https://github.com/patrykkurzeja91/strapi-nuxt-graphql-blog.git
+cd strapi-nuxt-graphql-blog
 ```
 
 #### Start the frontend server
@@ -63,11 +52,11 @@ cd strapi-starter-nuxt-blog
 ```bash
 # Using yarn
 yarn install
-yarn develop
+yarn deve
 
 # Using npm
 npm install
-npm run develop
+npm run dev
 ```
 
 Nuxt server is running here => [http://localhost:3000](http://localhost:3000)

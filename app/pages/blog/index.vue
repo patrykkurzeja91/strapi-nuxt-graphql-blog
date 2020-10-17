@@ -5,7 +5,6 @@
         <h1><span style="font-weight: 500">BLOG</span>PEDI</h1>
 
         <Articles :articles="articles"></Articles>
-        <!-- {{articles }} -->
         <a class="uk-link" href="#">SOMEWHERE</a>
         <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
           <h3 class="uk-card-title">Default</h3>
