@@ -1,8 +1,8 @@
 {
-  "name": "frontend",
+  "name": "strapi-nuxt-graphql-blog",
   "version": "1.0.0",
-  "description": "My polished Nuxt.js project",
-  "author": "You",
+  "description": "Nuxt.js project",
+  "author": "pk",
   "private": true,
   "scripts": {
     "dev": "nuxt",
