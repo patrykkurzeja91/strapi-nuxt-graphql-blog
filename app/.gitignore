@@ -1,111 +1,59 @@
-############################
-# OS X
-############################
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
+# Created by https://www.toptal.com/developers/gitignore/api/macos,nuxt,nuxtjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,nuxt,nuxtjs
+
+### macOS ###
+# General
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Icon must end with two \r
 Icon
-.Spotlight-V100
-.Trashes
+
+# Thumbnails
 ._*
 
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-############################
-# Linux
-############################
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-*~
+### Nuxt ###
+# gitignore template for Nuxt.js projects
+#
+# Recommended template: Node.gitignore
 
+# Nuxt build
+.nuxt
 
-############################
-# Windows
-############################
+# Nuxt generate
+dist
 
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
-
-
-############################
-# Packages
-############################
-
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
-
-
-############################
-# Logs and databases
-############################
-
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
-
-
-############################
-# Misc.
-############################
-
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
-
-############################
-# Node.js
-############################
-
-lib-cov
-lcov.info
-pids
-logs
-results
+### Nuxtjs ###
+# dependencies
 node_modules
-.node_history
 
+# logs
+npm-debug.log
 
-############################
-# Tests
-############################
+# Nuxt build
 
-testApp
-coverage
+# Nuxt generate
 
-############################
-# Strapi
-############################
+# End of https://www.toptal.com/developers/gitignore/api/macos,nuxt,nuxtjs
 
-exports
-.cache
-build
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
