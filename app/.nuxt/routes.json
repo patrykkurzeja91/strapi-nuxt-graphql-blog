@@ -1,0 +1,30 @@
+[
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/patryk/CODE_PERSONAL/strapi-starter-nuxt-blog/app/pages/blog/index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_b5037be0"
+  },
+  {
+    "name": "blog-articles-slug",
+    "path": "/blog/articles/:slug?",
+    "component": "/Users/patryk/CODE_PERSONAL/strapi-starter-nuxt-blog/app/pages/blog/articles/_slug.vue",
+    "chunkName": "pages/blog/articles/_slug",
+    "_name": "_51344aea"
+  },
+  {
+    "name": "blog-categories-slug",
+    "path": "/blog/categories/:slug?",
+    "component": "/Users/patryk/CODE_PERSONAL/strapi-starter-nuxt-blog/app/pages/blog/categories/_slug.vue",
+    "chunkName": "pages/blog/categories/_slug",
+    "_name": "_083754ee"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/patryk/CODE_PERSONAL/strapi-starter-nuxt-blog/app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2885bcb7"
+  }
+]
