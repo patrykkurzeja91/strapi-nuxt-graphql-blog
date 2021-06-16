@@ -10438,10 +10438,10 @@ uglify-js@^3.5.1:
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.10.4.tgz#dd680f5687bc0d7a93b14a3482d16db6eba2bfbb"
   integrity sha512-kBFT3U4Dcj4/pJ52vfjCSfyLyvG9VYYuGYPmrPvAxRw/i7xHiT4VvCev+uiEMcEEiu6UNB6KgWmGtSUYIWScbw==
 
-uikit@^3.5.7:
-  version "3.5.7"
-  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.5.7.tgz#2376be4272d086eb52be62cc679e55f266a693f2"
-  integrity sha512-X9im58e6c7IsQopy80TXizv3LXeBaUKTa5fseE/F8UV0jryPnU7JYBl2/1QGrX5IN9hbOb6UJB4o2wdElGJoxg==
+uikit@^3.6.22:
+  version "3.6.22"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.6.22.tgz#bbf3d64f9715ec09b3dead80845f2784447d7048"
+  integrity sha512-c8jz0lzvGPrPbOG4K5HvOCgUe7i9A6blZmMq2M/EYqoY7FT9dBayGFZYbBeio2s9WCpADIcCAj2QX/5L3EByOQ==
 
 undefsafe@^2.0.2:
   version "2.0.3"
